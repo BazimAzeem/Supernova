@@ -11,6 +11,10 @@ var G = 120;
 
 function setup() {
   createCanvas(500, 500);
+  var x = (windowWidth - width) / 2;
+  var y = (windowHeight - height) / 2;
+  cnv.position(x, y);
+
   noStroke();
   background(backColor);
 
